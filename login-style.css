@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.window {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 10vh;
+    left: 33vw;
+    border-radius: 25px;
+    background-image: url(images/login-window-picture.png);
+    border: 15px double lightslategrey;
+}
+
+.login {
+    position: relative;
+    top: 10px;
+    left: 230px;
+    font-size: 40px;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    position: relative;
+    top: 125px;
+    left: 135px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+form input {
+    font-size: 25px;
+    text-align: center;
+    outline: none;
+    border-radius: 20px;
+    width: 300px;
+}
+button {
+    position: relative;
+    top: 170px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+    left: 230px;
+    outline: none;
+}
